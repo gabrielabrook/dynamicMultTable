@@ -1,0 +1,33 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<title>CIS 217 - Dynamic 12x12 Multiplication Table (A06)</title>
+</head>
+
+<body>
+	<!-- Page Header -->	
+	<div>
+		<h1>CIS 217 - Assignment #6</h1>
+		<hr><br>
+		<!-- Multiplication Table (dynamicMultTable) -->
+		<h2>Dynamic 12x12 Multiplication Table</h2>
+		<br>
+	
+		<!-- JavaScript -->
+		<script type="text/javascript" src="script.js"></script>
+
+		<!-- User Input -->
+		<form action="" onSubmit="return dynamicMultTable()">
+			<p>Rows:
+			<input type="number" id="rows" size="3" maxlength="3" min="2" max="100" required/></p>
+			<p>Columns:
+			<input type="number" id="cols" size="3" maxlength="3" min="2" max="100" required/></p>
+			<input type="submit" value="Generate Table"/><br><br>
+		</form>
+	</div>
+
+	<div id="table">
+		<!-- Table gets printed on same page -->
+	</div>
+</body>
+</html>

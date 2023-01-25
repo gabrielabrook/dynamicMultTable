@@ -1,0 +1,45 @@
+/* ------------------------------------------- */
+/* CSS External Style Sheet - A06 SCHWEERS     */
+/* ------------------------------------------- */
+
+/* DYNAMIC MULT TABLE INFO */
+table {
+	border: 3px solid black;
+	border-collapse: collapse;
+	table-layout: fixed;
+	width: 45%;
+	margin-left: auto; 
+  	margin-right: auto;
+	background-color: white;
+}
+
+td {
+	width: 20px;
+	padding: 20px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+/* PAGE BACKGROUND */
+body {
+	background-color: mediumaquamarine;
+}
+
+/* PAGE ALIGNMENT */
+div {
+	text-align: center;
+}
+
+/* DYNANMIC MULT TABLE ALIGNMENT */
+.table {
+	text-align: center;
+	
+}
+
+/* OTHER TEXT STYLE ATTRIBUTES */
+h1, h2 {
+	color: white;
+	text-align: center;
+}
+
